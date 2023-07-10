@@ -21638,6 +21638,8 @@ with pkgs;
 
   imgui = callPackage ../development/libraries/imgui { };
 
+  imgui-glfw = callPackage ../development/libraries/imgui-glfw { };
+
   imtui = callPackage ../development/libraries/imtui { };
 
   imv = callPackage ../applications/graphics/imv { };
